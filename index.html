@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Sections</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Parte 1 desafio -->
+    <h2>Click Borde</h2>
+    <section id="section1">
+      <img id="toggle-border-img" src="./assets/img/1.jpg" alt="Sample Image" />
+    </section>
+
+    <!-- Parte 2 desafio -->
+    <h2>Selector de Stickers</h2>
+
+    <section id="section2">
+      <div>
+        <img src="./assets/img/2.jpg" alt="Sticker 1" />
+        <input type="number" id="sticker1" min="0" max="10" />
+      </div>
+      <div>
+        <img src="./assets/img/3.jpg" alt="Sticker 2" />
+        <input type="number" id="sticker2" min="0" max="10" />
+      </div>
+      <div>
+        <img src="./assets/img/4.jpg" alt="Sticker 3" />
+        <input type="number" id="sticker3" min="0" max="10" />
+      </div>
+      <button id="check-stickers">Verificar Stickers</button>
+      <p id="sticker-result"></p>
+    </section>
+
+    <!-- Parte 3 desafio -->
+    <h2>Verificador de Password</h2>
+    <section id="section3">
+        <div>
+      <select id="digit1">
+        <option value="">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="digit2">
+        <option value="">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <select id="digit3">
+        <option value="">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      </div>
+      <button id="check-password">Verificar password</button>
+      <p id="password-result"></p>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
